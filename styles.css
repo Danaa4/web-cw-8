@@ -73,3 +73,12 @@ td {
     border-bottom: 4px solid #ff7b54;
     border-top: 4px solid #ff7b54;
 }
+
+.reset {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    background-color:#ffd56b;
+    position: relative;
+    font-size: 30px;
+
+}

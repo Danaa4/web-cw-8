@@ -34,19 +34,19 @@
       <div class="board">
         <table>
           <tr>
-            <td onclick="press('02')"></td>
-            <td onclick="press('01')" class="v"></td>
-            <td onclick="press('00')"></td>
+            <td class="cell" id="02" onclick="press('02')"></td>
+            <td class="cell v" id="01" onclick="press('01')" ></td>
+            <td class="cell" id="00" onclick="press('00')"></td>
           </tr>
           <tr>
-            <td onclick="press('12')" class="h"></td>
-            <td onclick="press('11')" class="v h"></td>
-            <td onclick="press('10')" class="h"></td>
+            <td class="cell h" id="12" onclick="press('12')" ></td>
+            <td class="cell v h" id="11" onclick="press('11')"></td>
+            <td class="cell h" id="10" onclick="press('10')" ></td>
           </tr>
           <tr>
-            <td onclick="press('22')"></td>
-            <td onclick="press('21')" class="v"></td>
-            <td onclick="press('20')"></td>
+            <td class="cell" id="22" onclick="press('22')"></td>
+            <td class="cell v" id="21" onclick="press('21')" ></td>
+            <td class="cell" id="20" onclick="press('20')"></td>
           </tr>
         </table>
       </div>
@@ -59,6 +59,11 @@
       <h1>O</h1>
       <h1>X</h1>
     </div>
+      
+    <div id="state"></div>
+
+    <button class="reset" onclick="myFunction()">Restart the game</button>
+
     <script src="./myscript.js"></script>
   </body>
 </html>
